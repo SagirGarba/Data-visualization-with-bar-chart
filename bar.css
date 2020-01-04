@@ -1,0 +1,68 @@
+:root{
+    --main: #dedede;
+    --bg: #333;
+    --accent: salmon;
+    }
+    
+    *, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    background: var(--bg);
+    color: var(--main);
+    font-family: 'montserrat', sans-serif;
+    }
+    
+    .center {
+    margin: 0 auto;
+    text-align: center;
+    }
+    .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: 0 3px 6px 0 #00000050;
+    border-radius: 5px;
+    }
+     
+    .main {
+    width: 90vw;
+    height: 85vh;
+    background: #777;
+    }
+    
+    .card-title {
+    padding: 10px;
+    }
+    .graph-card {
+    background: var(--main);
+    }
+     
+    .graph {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    .bar {
+    fill: steelblue;
+    }
+     
+    .bar:hover {
+    fill: white;
+    }
+     
+    .footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .heart{color: var(--accent);}
